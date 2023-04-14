@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <thead><h2>Đăng kí học viên</h2></thead>
+            <tr>
+                <td>Họ và Tên</td>
+                <td colspan="2"><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Ngày tháng năm sinh</td>
+                <td colspan="2"><input type="date" name="birth" id=""></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td><input type="radio" name="sex">nam</td>
+                <td><input type="radio" name="sex">nữ</td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td colspan="2"><textarea name="adress" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td>
+                    <select name="class">
+                        <option value="12A1">12A1</option>
+                        <option value="12A2">12A2</option>
+                        <option value="12A3">12A3</option>
+                        <option value="12A4">12A4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td colspan="2"><input type="email" name="email" pattern=".+@" placeholder="Nhập địa chỉ email"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td colspan="2"><input type="tel" name="phone_number" placeholder="080-1234-5678"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Đăng ký</button></td>
+                <td><button type="reset">Nhập lại</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
